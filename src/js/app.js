@@ -1,7 +1,7 @@
 import "../scss/app.scss";
 
 window.addEventListener("DOMContentLoaded", () => {
-  const elements = document.getElementsByClassName('hot');
+  const elements = document.querySelectorAll('.hot');
   for(let i = 0 ; i<elements.length;i++){
     elements[i].insertAdjacentText('beforeend', "🔥")
   }
